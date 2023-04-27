@@ -7,51 +7,50 @@ Kelas : TI 3C / 20
 NIM : 2041720054
 
 1. Kode 1
-    * mylist : 
-    * myschema : 
+    * mylist & myschema : merupakan list, array / data awal yang digunakan untuk membuat dataframe
 2. Kode 2
-    * spark
-    * createDataFrame : 
+    * spark.createDataFrame : Membuat DataFrame dari RDD, daftar, atau pandas.DataFrame.
 3. Kode 3
-    * parallelize
-    * toDF
+    * parallelize : kumpulan list untuk membentuk RDD.
+    * toDF : Mengubah Dataset menjadi DataFrame dengan kolom baru.
+
 4. Kode 4
-    * hadoop
-    * fs
-    * put
+    * hadoop : platform perangkat lunak yang memungkinkan pengolahan data secara terdistribusi pada cluster besar yang terdiri dari ribuan node dan kapasitas data mencapai petabyte.
+    * fs :  menyediakan akses ke berbagai sistem file termasuk Hadoop Distributed File System (HDFS) dan sistem file lokal.
+    * put : sebuah operasi untuk mengunggah file atau objek dari mesin lokal atau virtual ke sistem penyimpanan objek pada PySpark.
 5. Kode 5
-    * pyspark.sql
-    * SQLContext
-    * createOrReplaceTempView
-    * show
+    * pyspark.sql : Mengembalikan DataFrame yang mewakili hasil kueri yang diberikan.
+    * SQLContext : membuat DataFrame, mendaftarkan DataFrame sebagai tabel, mengeksekusi SQL, dll.
+    * createOrReplaceTempView : Membuat atau mengganti tampilan sementara lokal dengan DataFrame ini.
+    * show : Mencetak n baris pertama ke konsol.
 6. Kode 6
-    * textFile
-    * map
-    * lambda
-    * strip
-    * StructField
-    * StringType
+    * textFile : Baca file teks dari HDFS.
+    * map : Kembalikan RDD baru dengan menerapkan fungsi ke setiap elemen RDD ini.
+    * lambda : untuk fungsi sederhana yang dapat ditulis sebagai ekspresi
+    * strip : menghapus karakter awal dan akhir dari sebuah string, termasuk spasi putih atau sekumpulan karakter tertentu
+    * StructField :  representasi dari sebuah field di StructType
+    * StringType : tipe data pada PySpark yang digunakan untuk merepresentasikan nilai string
 7. Kode 7
-    * spark.read.format
-    * jdbc
-    * options
-    * load
+    * spark.read.format : membaca data dari berbagai sumber data seperti file CSV, JSON, Parquet, Avro, dan lain-lain
+    * jdbc :  modul yang tersedia di Apache Spark yang digunakan untuk membaca dan menulis data dari database menggunakan JDBC (Java Database Connectivity)
+    * options : menentukan opsi konfigurasi saat membaca atau menulis data dari atau ke sumber eksternal.
+    * load : memuat data ke dalam DataFrame dengan format tertentu, seperti CSV, JSON, parquet, atau ORC
 8. Kode 8
-    * show
+    * show : menampilkan data dari DataFrame
 9. Kode 9
-    * collect
-    * rdd
-    * take
+    * collect : mengambil seluruh data dari DataFrame ke dalam bentuk Python list
+    * rdd : kumpulan data yang terdistribusi di seluruh node dalam sebuah cluster, yang dapat diproses secara terpisah dan paralel.
+    * take : mengambil sejumlah baris dari sebuah RDD atau DataFrame dan mengembalikan hasilnya ke driver node dalam bentuk Python list
 10. Kode 10
-    * makeRDD
-    * Seq
-    * createDataset
+    * makeRDD : membuat RDD baru dari data yang sudah ada di dalam memori.
+    * Seq : tipe data di Scala yang merepresentasikan sebuah urutan dari elemen-elemen yang dapat diakses secara berurutan.
+    * createDataset : membuat sebuah Dataset, yaitu sebuah struktur data yang mirip dengan DataFrame, tetapi memiliki tipe data yang terjaga (strongly-typed) dan mendukung pemrograman fungsional
 11. Kode 11
-    * filter
+    * filter : melakukan filtering (penyaringan) pada sebuah Dataset atau DataFrame dengan kriteria tertentu
 12. Kode 12
-    * as
-    * toDF
-    * first
+    * as : memberikan alias (nama lain) pada sebuah kolom dalam sebuah DataFrame atau Dataset
+    * toDF : mengubah sebuah RDD (Resilient Distributed Dataset) menjadi sebuah DataFrame
+    * first : mengembalikan elemen pertama dari RDD
 13. Kode 13
     * listDatabases : Mengembalikan daftar database yang tersedia di semua sesi.
     * listTables : Mengembalikan daftar tabel/tampilan dalam database yang ditentukan.
