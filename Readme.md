@@ -13,6 +13,58 @@
 
     ![](20_images/metode_4.png)
 
+4. Membuat DataFrame dari Database Eksternal
+    
+    - terjadi error yaitu driver yang digunakan tidak kompatibel, dimana sudah melakukan copy file jar dari hive ke path folder jars pada spark.
+
+    * Metode 1
+    ![](20_images/kode_7.png)
+
+    * Metode 2
+    ![](20_images/kode_8.png)
+
+5. Mengonversi DataFrames ke RDDs
+
+    ![](20_images/kode_9.png)
+
+6. Membuat Datasets
+
+    * kode 10
+    ![](20_images/kode_10.png)
+
+    * kode 11
+    ![](20_images/kode_11.png)
+
+7. Mengonversi DataFrame ke Datasets dan sebaliknya
+
+    ![](20_images/kode_12.png)
+
+8. Mengakses Metadata menggunakan Catalog 
+
+    ![](20_images/kode_13.png)
+
+    ![](20_images/kode_13_1.png)
+
+9. Bekerja dengan berkas teks
+
+    ![](20_images/kode_14.png)
+
+10. Bekerja dengan JSON
+    * kode 15
+    ![](20_images/kode_15.png)
+
+    * kode 16
+    ![](20_images/kode_16.png)
+
+    * kode 17
+    ![](20_images/kode_17.png)
+
+11. Bekerja dengan CSV
+
+    ![](20_images/kode_18.png)
+
+    ![](20_images/kode_18_1.png)
+
 # Tugas Praktikum
 
 Nama : Yudas Malabi
