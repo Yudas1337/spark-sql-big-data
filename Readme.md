@@ -1,3 +1,18 @@
+# Praktikum Chapter 4
+
+1. Metode 1 dan Metode 2, Membuat Dataframe dengan objek list, dan juga dengan parallelizing list dan konversi RDD
+
+    ![](20_images/metode_1.png)
+
+2. Metode 3, Read data from a file, Infer schema and convert to DataFrame
+
+    ![](20_images/metode_3.png)
+    ![](20_images/metode_3_2.png)
+
+3. Metode 4: Membaca data dari file, lalu assign schema secara programmatically
+
+    ![](20_images/metode_4.png)
+
 # Tugas Praktikum
 
 Nama : Yudas Malabi
